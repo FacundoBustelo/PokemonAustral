@@ -31,7 +31,7 @@ function CharactersDetail() {
           <img src={character.sprites.front_default} />
           <IonCardHeader>
             <IonCardTitle>{character.name}</IonCardTitle>
-            <IonCardSubtitle>Experiencia{character.base_experience} XP</IonCardSubtitle>
+            <IonCardSubtitle>Experiencia: {character.base_experience} XP</IonCardSubtitle>
             <IonCardSubtitle>Altura: {character.height} cm</IonCardSubtitle>
             <IonCardSubtitle>Peso: {character.weight} kg</IonCardSubtitle>
             <IonCardSubtitle>Habilidad: {character.abilities[0].ability.name}</IonCardSubtitle>
